@@ -35,3 +35,19 @@ for (let) emp of employees) {
     console.log(emp.describe());
 },
     
+// Step 5: Company class
+class Company {
+    constructor() {
+        this.employees = [];
+    }
+
+    addEmployee(employee) {
+        this.employees.push(employee);
+    }
+
+    listEmployees() {
+        this.employees.forEach(emp => {
+            console.log(emp.describe());
+        });
+    }
+}
