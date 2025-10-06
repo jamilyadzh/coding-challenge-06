@@ -22,3 +22,16 @@ class Manager extends Employee {
         return `${this.name} manages ${this.department} people in ${this.teamSize}`;
     }
 }
+
+// Step 4: Create sample employees
+const employees = [
+    new Employee('Alice', 'Engineering'),
+    new Manager('Bob', 'Sales', 10)
+    new Employee('Charlie', 'HR')
+    new Manager('Diana', 'Marketing', 5)
+];
+
+for (let) emp of employees) {
+    console.log(emp.describe());
+},
+    
